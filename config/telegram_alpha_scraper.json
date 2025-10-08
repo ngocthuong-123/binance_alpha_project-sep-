@@ -1,0 +1,24 @@
+{
+    "telegram": {
+        "api_id": "*******",
+        "api_hash": "****************************",
+        "phone_number": "+84********************",
+        "channels": [
+            "@NewListingsFeed"
+        ]
+    },
+    "filters": {
+        "keywords": [
+            "binance alpha projects",
+            "binance alpha and futures"
+        ],
+        "date_range": {
+            "start_date": "2025-09-01",
+            "end_date": "2025-10-01"
+        }
+    },
+    "output": {
+        "filename": "binance_alpha_sep2025.csv",
+        "columns": ["stt", "ngay", "loai_thong_bao", "token"]
+    }
+}
